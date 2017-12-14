@@ -35,7 +35,7 @@ static RCTBridge *curRCTBridge;
 
 OSNotificationOpenedResult* coldStartOSNotificationOpenedResult;
 
-(void)didReceiveRemoteNotification:(NSDictionary *)dictionary {
++ (void)didReceiveRemoteNotification:(NSDictionary *)dictionary {
     
 }
 
